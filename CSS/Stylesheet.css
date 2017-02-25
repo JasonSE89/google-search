@@ -14,16 +14,45 @@ div {
 
 }
 
+#microphone {
+ margin: 0;
+ top: 20%;
+ left: 450px;
+ display: inline-block;
+ height: 24px;
+ background: url(../microphone.png);
+ background-repeat: no-repeat;
+ position: absolute;
+ background-size: 24px;
+
+}
+
+#search_icon {
+	margin: 0;
+	top: 25%;
+	left: 485px;
+	display: inline-block;
+	height: 20px;
+	background: url(../magnifying_glass.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	background-size: 20px;
+}
+
 form { 
-	display: inline;
-    position: absolute;
+	display: inline-block;
+    position: relative;
+    bottom: 20px;
 	width: 100px;
-	bottom: 0;
 	border-radius: 10;
 
 }
 
 input {
+	position: relative;
+	display: inline-block;
+	bottom: 0;
+	font: 16px arial,sans-serif;
 	height: 30px;
 	width: 511px;
 	padding: 3px;
@@ -39,7 +68,7 @@ input {
 
 
 
-img {
+#google {
 	padding-left: 13px;
 	padding-right: 12px;
 	height: 41px;
