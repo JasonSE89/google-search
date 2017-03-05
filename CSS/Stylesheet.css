@@ -5,73 +5,81 @@ body{
 	font-size: 13px;
 }
 
-div {
-	position: relative;
-	height: 60px; 
+
+
+ .main {
 	width: 100%;
+	position: relative;
+	height: 40px;
+	padding-bottom: 40px;
+	display: inline-block;
 	background-color: #fafafa;
-	margin: 0;
-
 }
 
-#microphone {
- margin: 0;
- top: 20%;
- left: 450px;
- display: inline-block;
- height: 24px;
- background: url(../microphone.png);
- background-repeat: no-repeat;
- position: absolute;
- background-size: 24px;
 
-}
+
+
 
 #search_icon {
 	margin: 0;
-	top: 25%;
 	left: 485px;
 	display: inline-block;
 	height: 20px;
-	background: url(../magnifying_glass.png);
-	background-repeat: no-repeat;
-	position: absolute;
+	background: ;
+	position: relative;
 	background-size: 20px;
 }
 
 form { 
 	display: inline-block;
     position: relative;
-    bottom: 20px;
 	width: 100px;
 	border-radius: 10;
+	bottom: 25px;
+
 
 }
 
 input {
-	position: relative;
+	background-image: url("../microphone.png"), url(../magnifying_glass.png);
+	background-repeat: no-repeat;
+	background-position: 455px, 490px;
+	background-size: 24px 24px, 18px 18px;
+	position: absolute;
 	display: inline-block;
-	bottom: 0;
 	font: 16px arial,sans-serif;
 	height: 30px;
 	width: 511px;
-	padding: 3px;
 	padding-left: 8px;
+	vertical-align: center;
 }
 	
 
 
-#two {
-	position: relative;
-	margin-top: 0;
-}
+
 
 
 
 #google {
+	position: relative;
 	padding-left: 13px;
 	padding-right: 12px;
 	height: 41px;
 	width: 120px;
-	margin-top: 20px;
+	top: 15px;
+	
+}
+
+#sidebar{
+	display: absolute;
+	left: 540px;
+	position: relative;
+	bottom: 10px;
+}
+
+
+#sidebar td{
+	background-color: #999999;
+	height: 3px;
+	width: 3px;
 }
