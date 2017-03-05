@@ -5,17 +5,58 @@ body{
 	font-size: 13px;
 }
 
+p{
+	color: #777;
+	left: 145px;
+}
 
 
  .main {
 	width: 100%;
 	position: relative;
-	height: 40px;
-	padding-bottom: 40px;
+	font-size: 13px;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
 	display: inline-block;
 	background-color: #fafafa;
 }
 
+
+#tool_bar a:first-child {
+
+	color: #4285f4;
+	border-bottom-style: solid;
+	border-bottom-color: #4285f4;
+	padding-bottom: 40px;
+	align-items: center;
+}
+
+
+
+ #tool_bar{
+ 	display: inline-block;
+ 	position: relative;
+ 	height: 30px;
+ 	left: 145px;
+
+ }
+
+#tool_bar_extra{
+	display: inline-block;
+	position: relative;
+	left: 200px;
+}
+ 
+
+#tool_bar > a, #tool_bar_extra > a{
+	color: #777;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: arial;
+	padding: 5px;
+	padding-right: 25px;
+}
 
 
 
@@ -35,8 +76,7 @@ form {
     position: relative;
 	width: 100px;
 	border-radius: 10;
-	bottom: 25px;
-
+	bottom: 30px;
 
 
 }
@@ -44,18 +84,18 @@ form {
 input {
 	background-image: url("../microphone.png"), url(../magnifying_glass.png);
 	background-repeat: no-repeat;
-	background-position: 455px, 490px;
+	background-position: 530px, 570px;
 	background-size: 24px 24px, 18px 18px;
 	position: absolute;
 	display: inline-block;
 	font: 16px arial,sans-serif;
-	height: 30px;
-	width: 511px;
-	padding-left: 8px;
+	height: 35px;
+	width: 600px;
+	padding: 4px;
+	padding-left: 12px;
 	vertical-align: center;
 }
 	
-
 
 
 
@@ -72,10 +112,33 @@ input {
 }
 
 #sidebar{
-	display: absolute;
-	left: 540px;
+	padding: 20px;
+	margin: 5px;
+	width: 100px;
+	display: inline;
+	position: absolute;
+	left: 1250px;
+}
+
+#sidebar > table {
+	margin-right: 5px;
+	display: inline-block;
 	position: relative;
-	bottom: 10px;
+}
+
+#sign_in {
+	font-family: arial;
+	font-size: 15px;
+	text-align: center;
+	margin-right: 5px;
+	padding: 5px;
+	position: relative;
+	bottom: 8px;
+	display: inline-block;
+	background-color: #4285f4;
+	color: #ffffff;
+	height: 20px;
+	width: 48px;
 }
 
 
@@ -83,4 +146,17 @@ input {
 	background-color: #999999;
 	height: 3px;
 	width: 3px;
+}
+
+a {
+	padding: 5px;
+}
+
+a:hover{
+	color: #000000 !important;
+}
+
+#search_speed{
+	position: relative;
+	left: 145px;
 }
