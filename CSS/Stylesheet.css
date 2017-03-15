@@ -278,18 +278,20 @@ body > p > a:nth-child(14){
 #pageNumber{
 	bottom: 30px;
 	margin-left: 25px;
-	font-size: 14px;
+	font-size: 12px;
 }
 
 
 #page_number_1{
 	color: #000000;
-	margin: 5.25px;
+	margin-left: 8px;
+	margin-right: 5px;
 }
 
 #page_number_else{
 	color: #4285f4;
-	margin: 5.25px;
+	margin-left: 8px;
+	margin-right: 5px;
 }
 
 
